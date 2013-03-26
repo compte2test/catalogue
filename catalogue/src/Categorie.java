@@ -10,6 +10,7 @@ public class Categorie implements Entite
 	
 	public Categorie(int id, String nom,String description) 
 	{
+		
 		root = new Root();
 		this.id = id;
 		this.nom = nom;
