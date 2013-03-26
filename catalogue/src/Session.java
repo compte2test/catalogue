@@ -190,7 +190,7 @@ public class Session implements Entite
 	public Object[] getValCond()
 	{
 		System.out.println(this + "\n" + formation);
-		Object[] val = new Object[] { getId()/*, getFormation().getId()*/ };
+		Object[] val = new Object[] { getId(), getFormation().getId() };
 		return val;
 	}
 }
